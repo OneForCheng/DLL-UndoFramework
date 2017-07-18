@@ -4,7 +4,7 @@ using ForCheng.UndoFramework.Abstract;
 namespace ForCheng.UndoFramework.Actions
 {
     /// <summary>
-    /// 
+    /// 互反操作
     /// </summary>
     public class CallMethodAction : AbstractBackableAction
     {

@@ -33,14 +33,7 @@ namespace ForCheng.UndoFramework.Abstract
         /// <summary>
         /// 能否执行
         /// </summary>
-        public virtual bool CanExecute
-        {
-           get
-            {
-                return ExecuteCount == 0;
-            }
-            
-        }
+        public virtual bool CanExecute => ExecuteCount == 0;
     }
 
 }
